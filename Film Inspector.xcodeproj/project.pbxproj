@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		796917796A33E64D598177FE /* Pods_Film_Inspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF2334654F5F2B508A82CE0 /* Pods_Film_Inspector.framework */; };
+		9740B08820B5B441001329E4 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9740B08720B5B441001329E4 /* MovieDetailsViewController.swift */; };
 		97A7484720B0695D007D750D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7484620B0695D007D750D /* AppDelegate.swift */; };
-		97A7484920B0695D007D750D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7484820B0695D007D750D /* ViewController.swift */; };
 		97A7484C20B0695D007D750D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A7484A20B0695D007D750D /* Main.storyboard */; };
-		97A7484F20B0695D007D750D /* Film_Inspector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97A7484D20B0695D007D750D /* Film_Inspector.xcdatamodeld */; };
+		97A7484F20B0695D007D750D /* CategoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97A7484D20B0695D007D750D /* CategoryModel.xcdatamodeld */; };
 		97A7485120B0695E007D750D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A7485020B0695E007D750D /* Assets.xcassets */; };
 		97A7485420B0695E007D750D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A7485220B0695E007D750D /* LaunchScreen.storyboard */; };
+		97A7486320B06C13007D750D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7486220B06C13007D750D /* CategoryViewController.swift */; };
+		97A7486820B0773F007D750D /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7486620B0773F007D750D /* CategoryViewCell.swift */; };
+		97A7486920B0773F007D750D /* CategoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97A7486720B0773F007D750D /* CategoryViewCell.xib */; };
+		97EA280F20B239D4002FBAD3 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA280E20B239D4002FBAD3 /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		057EE10A9C87C767FE200E54 /* Pods-Film Inspector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film Inspector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Film Inspector/Pods-Film Inspector.release.xcconfig"; sourceTree = "<group>"; };
+		11D9DC886DCC889E4C27ADB9 /* Pods-Film Inspector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film Inspector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Film Inspector/Pods-Film Inspector.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF2334654F5F2B508A82CE0 /* Pods_Film_Inspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Film_Inspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9740B08720B5B441001329E4 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		97A7484320B0695D007D750D /* Film Inspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Film Inspector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A7484620B0695D007D750D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97A7484820B0695D007D750D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97A7484B20B0695D007D750D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97A7484E20B0695D007D750D /* Film_Inspector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Film_Inspector.xcdatamodel; sourceTree = "<group>"; };
 		97A7485020B0695E007D750D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97A7485320B0695E007D750D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97A7485520B0695E007D750D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A7486220B06C13007D750D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		97A7486620B0773F007D750D /* CategoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
+		97A7486720B0773F007D750D /* CategoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewCell.xib; sourceTree = "<group>"; };
+		97EA280E20B239D4002FBAD3 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796917796A33E64D598177FE /* Pods_Film_Inspector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CCA2C47A1C81089EC347307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D9DC886DCC889E4C27ADB9 /* Pods-Film Inspector.debug.xcconfig */,
+				057EE10A9C87C767FE200E54 /* Pods-Film Inspector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		97A7483A20B0695D007D750D = {
 			isa = PBXGroup;
 			children = (
 				97A7484520B0695D007D750D /* Film Inspector */,
 				97A7484420B0695D007D750D /* Products */,
+				4CCA2C47A1C81089EC347307 /* Pods */,
+				CF77FBF32D5D499E81D7F0DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +81,66 @@
 			isa = PBXGroup;
 			children = (
 				97A7484620B0695D007D750D /* AppDelegate.swift */,
-				97A7484820B0695D007D750D /* ViewController.swift */,
-				97A7484A20B0695D007D750D /* Main.storyboard */,
-				97A7485020B0695E007D750D /* Assets.xcassets */,
-				97A7485220B0695E007D750D /* LaunchScreen.storyboard */,
+				97A7485B20B069CA007D750D /* Controller */,
+				97A7485C20B069E3007D750D /* View */,
+				97A7486420B06D70007D750D /* Supporting Files */,
 				97A7485520B0695E007D750D /* Info.plist */,
-				97A7484D20B0695D007D750D /* Film_Inspector.xcdatamodeld */,
+				97A7485D20B069F0007D750D /* Model */,
 			);
 			path = "Film Inspector";
+			sourceTree = "<group>";
+		};
+		97A7485B20B069CA007D750D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97A7486220B06C13007D750D /* CategoryViewController.swift */,
+				97EA280E20B239D4002FBAD3 /* MovieViewController.swift */,
+				9740B08720B5B441001329E4 /* MovieDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97A7485C20B069E3007D750D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97A7486520B076CA007D750D /* CustomCategoryCell */,
+				97A7484A20B0695D007D750D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97A7485D20B069F0007D750D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97A7484D20B0695D007D750D /* CategoryModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97A7486420B06D70007D750D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97A7485020B0695E007D750D /* Assets.xcassets */,
+				97A7485220B0695E007D750D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97A7486520B076CA007D750D /* CustomCategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				97A7486620B0773F007D750D /* CategoryViewCell.swift */,
+				97A7486720B0773F007D750D /* CategoryViewCell.xib */,
+			);
+			path = CustomCategoryCell;
+			sourceTree = "<group>";
+		};
+		CF77FBF32D5D499E81D7F0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FF2334654F5F2B508A82CE0 /* Pods_Film_Inspector.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97A7485820B0695E007D750D /* Build configuration list for PBXNativeTarget "Film Inspector" */;
 			buildPhases = (
+				F3C4452268A510BFF3B288B2 /* [CP] Check Pods Manifest.lock */,
 				97A7483F20B0695D007D750D /* Sources */,
 				97A7484020B0695D007D750D /* Frameworks */,
 				97A7484120B0695D007D750D /* Resources */,
+				3EDFA2F2F2C1FC9815DA5A21 /* [CP] Embed Pods Frameworks */,
+				1DE15DD2E82FE8BF95830043 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +206,83 @@
 			files = (
 				97A7485420B0695E007D750D /* LaunchScreen.storyboard in Resources */,
 				97A7485120B0695E007D750D /* Assets.xcassets in Resources */,
+				97A7486920B0773F007D750D /* CategoryViewCell.xib in Resources */,
 				97A7484C20B0695D007D750D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DE15DD2E82FE8BF95830043 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Film Inspector/Pods-Film Inspector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EDFA2F2F2C1FC9815DA5A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Film Inspector/Pods-Film Inspector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Film Inspector/Pods-Film Inspector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C4452268A510BFF3B288B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Film Inspector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97A7483F20B0695D007D750D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A7484F20B0695D007D750D /* Film_Inspector.xcdatamodeld in Sources */,
-				97A7484920B0695D007D750D /* ViewController.swift in Sources */,
+				97A7484F20B0695D007D750D /* CategoryModel.xcdatamodeld in Sources */,
+				97EA280F20B239D4002FBAD3 /* MovieViewController.swift in Sources */,
+				9740B08820B5B441001329E4 /* MovieDetailsViewController.swift in Sources */,
+				97A7486320B06C13007D750D /* CategoryViewController.swift in Sources */,
+				97A7486820B0773F007D750D /* CategoryViewCell.swift in Sources */,
 				97A7484720B0695D007D750D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,15 +425,13 @@
 		};
 		97A7485920B0695E007D750D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D9DC886DCC889E4C27ADB9 /* Pods-Film Inspector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QS9CUAZ3M;
 				INFOPLIST_FILE = "Film Inspector/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yassine.Film-Inspector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -300,15 +441,13 @@
 		};
 		97A7485A20B0695E007D750D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057EE10A9C87C767FE200E54 /* Pods-Film Inspector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QS9CUAZ3M;
 				INFOPLIST_FILE = "Film Inspector/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yassine.Film-Inspector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -340,13 +479,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		97A7484D20B0695D007D750D /* Film_Inspector.xcdatamodeld */ = {
+		97A7484D20B0695D007D750D /* CategoryModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				97A7484E20B0695D007D750D /* Film_Inspector.xcdatamodel */,
 			);
 			currentVersion = 97A7484E20B0695D007D750D /* Film_Inspector.xcdatamodel */;
-			path = Film_Inspector.xcdatamodeld;
+			path = CategoryModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
